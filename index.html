@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Coffee Shop Web</title>
+  <!--CSS-->
+  <link rel="stylesheet" href="style.css">
+  <!--AOS-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!--boxicons-->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <!------Scroll Indicator------>
+  <div class="header">
+    <!--<h2>Scroll Indicator</h2>-->
+    <div class="progress-container">
+      <div class="progress-bar" id="myBar"></div>
+    </div>
+  </div>
+
+  <div class="main_section">
+    <!-------Nav------->
+    <div class="nav-wrapper">
+      <nav class="nav" data-aos="fade-down" data-aos-delay="50" data-aos-duration="1200" data-aos-easing="ease-in-out">
+        <div class="container">
+
+          <div class="logo">
+            <a href="index.html"><img src="img\litelogo.png" alt="logo"></a>
+          </div>
+
+          <div class="main_list" id="mainListDiv">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#about_me">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Gallery</a></li>
+              <li><a href="#">Contact</a></li>
+              <li>
+
+              </li>
+            </ul>
+          </div>
+          <div class="media_button">
+            <button class="main_media_button" id="mediaButton">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!--Main Page-->
+    <div class="main_page">
+
+      <section class="headline">
+        <video id="video2" preload="" autoplay="" muted="" playsinline="" loop="">
+          <source src="img\pexels-kelly-2909914-3840x2024-24fps.mp4" type="video/webm">
+          <source src="img\pexels-pixabay-855391-3840x2160-25fps.mp4">
+        </video>
+
+        <div id="videoMessage2" class="styling">
+          <h1 data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">Coffee Lite
+            AG</h1>
+          <h2>The taste like no other</h2>
+          <h3>"lite your World"</h3>
+          <div class="styling_btn">
+            <button id="myBtn_1" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1100"
+              data-aos-easing="ease-in-out">Espresso</button>
+
+            <button id="myBtn_2" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1100"
+              data-aos-easing="ease-in-out">Coffee</button>
+          </div>
+          <!-- Modal_1 -->
+          <div id="myModal_1" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close_1 close">&times;</span>
+              <div>
+                <h5>Our Espresso</h5>
+                <div class="modal_content_group">
+                  <img src="img\Espresso.png.png" alt="">
+                  <p><span style="font-weight: bold;">Undoubtely the best in town.</span> we know you've tasted alot of
+                    espresso but our espresso we get you hooked; which mean you're not drinking any more espresso except
+                    ours: Our Some text in the Modal Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
+                    impedit
+                    nostrum sunt dolor accusantium magni perferendis vel ea nisi omnis incidunt fuga, odio illum ab quos
+                    praesentium necessitatibus vitae repudiandae. Aut impedit consequatur nisi quia ut modi minima, in
+                    laudantium est, ipsa, ad provident. Aperiam iure cumque in distinctio maiores eaque natus sunt
+                    necessitatibus! Quo excepturi quisquam sint nesciunt eum vel ipsam quam nihil eligendi fugit
+                    repellendus, tenetur repudiandae omnis maxime nemo id delectus animi corrupti laboriosam dolore
+                    natus. Labore ipsum incidunt iusto minus quae dolore beatae voluptas possimus numquam assumenda
+                    adipisci, quasi illo laboriosam accusantium magnam distinctio quo. Pariatur! ..</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <!-- Modal_2 -->
+          <div id="myModal_2" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close_2 close">&times;</span>
+              <div>
+                <h5>Our Coffee</h5>
+                <div class="modal_content_group">
+                  <img src="img\Coffee.jpg.png" alt="">
+                  <p><span style="font-weight: bold;">Undoubtely the best in town.</span> we know you've tasted alot of
+                    coffee but our coffee we get you hooked; which mean you're not drinking any more espresso except
+                    ours: Our Some text in the Modal Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
+                    impedit Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum nemo dolorum ipsum sed voluptatum perspiciatis mollitia temporibus vero obcaecati dolores!
+                    nostrum sunt dolor accusantium magni perferendis vel ea nisi omnis incidunt fuga, odio illum ab quos
+                    praesentium necessitatibus vitae repudiandae. Aut impedit consequatur nisi quia ut modi minima, in
+                    laudantium est, ipsa, ad provident. Aperiam iure cumque in distinctio maiores eaque natus sunt
+                    necessitatibus! Quo excepturi quisquam sint nesciunt eum vel ipsam quam nihil eligendi fugit
+                    repellendus, tenetur repudiandae omnis maxime nemo id delectus animi corrupti laboriosam dolore
+                    natus. Labore ipsum incidunt iusto minus quae dolore beatae voluptas possimus numquam assumenda
+                    adipisci, quasi illo laboriosam accusantium magnam distinctio quo. Pariatur! ..
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- <section class="headline_2">nnn</section> -->
+    </div>
+  </div>
+
+  <section class="about_me" id="about_me">
+    <div class="about_container">
+      <h5 class="about_header" data-aos="fade-down" data-aos-delay="50" data-aos-duration="1100"
+      data-aos-easing="ease-in-out">Meet our C.E.O</h5>
+      <div class="about_content">
+        <img src="img\ceo.jpg" alt="profile-image"data-aos="fade-right" data-aos-delay="70" data-aos-duration="1300"
+        data-aos-easing="ease-in-out" >
+        <p data-aos="fade-left" data-aos-delay="150" data-aos-duration="1500"
+        data-aos-easing="ease-in-out"><span>Mr Lumi Code (CEO and Founder) </span><br><br><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, vitae voluptatibus? Velit fugit beatae deserunt sed incidunt inventore asperiores unde! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate beatae quis sequi, mollitia non asperiores molestias doloribus eveniet minima assumenda cumque temporibus et cum quod, distinctio exercitationem repellat inventore dicta. Totam delectus, voluptatem ducimus optio ad quam, facilis eaque vel dolore unde eligendi rerum animi numquam qui labore excepturi. Nobis voluptas dolores natus numquam, maxime harum quis possimus ad consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, pariatur amet iste molestias aspernatur ea perspiciatis ullam libero sunt laborum provident repudiandae laboriosam. Quam doloribus nulla debitis tempore architecto deleniti velit odio placeat magnam, voluptatem dolorum nam nemo beatae perspiciatis excepturi odit doloremque sed repudiandae reprehenderit saepe consectetur eaque quae illo! Minima rerum placeat nulla pariatur esse impedit ipsum sequi nihil quis eius? Magnam nostrum aperiam quam laudantium culpa dolor!</p>
+      </div>
+
+      <div class="about_icons" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1200"
+      data-aos-easing="ease-in-out">
+        <i class='bx bxl-instagram-alt'></i>
+        <i class='bx bxl-facebook-square' ></i>
+        <i class='bx bxl-whatsapp-square' ></i>
+        <i class='bx bxl-youtube' ></i>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="features">
+    <div class="feature-container">
+      <img src="https://cdn-images-1.medium.com/max/2000/1*HFAEJvVOq4AwFuBivNu_OQ.png" alt="Flexbox Feature">
+      <h2>Flexbox Featured</h2>
+      <p>This pen contains use of flexbox for the headline and feature section! We use it in our mobile navbar and
+        show the power of mixing css grid and flexbox.</p>
+    </div>
+    <div class="feature-container">
+      <img src="https://blog.webix.com/wp-content/uploads/2017/06/20170621-CSS-Grid-Layout-710x355-tiny.png"
+        alt="Flexbox Feature">
+      <h2>CSS Grid Navigation</h2>
+      <p>While flexbox is used for the the mobile navbar, CSS grid is used for the desktop navbar showing many ways we
+        can use both.</p>
+    </div>
+    <div class="feature-container">
+      <img src="https://www.graycelltech.com/wp-content/uploads/2015/06/GCT-HTML5.jpg" alt="Flexbox Feature">
+      <h2>Basic HTML5</h2>
+      <p>This pen contains basic html to setup the page to display the responsive navbar.</p>
+    </div>
+  </section>
+
+
+  <script src="main.js"></script>
+  <!--AOS script-->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
