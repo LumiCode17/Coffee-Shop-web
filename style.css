@@ -512,7 +512,7 @@ h3 {
 }
 
 .about_me .about_content p {
-  font-size: 1vw;
+  font-size: 0.9vw;
   color: #f7f1f1;
   border-top-right-radius: 150px;
   border-top-left-radius: 150px;
@@ -534,6 +534,7 @@ h3 {
   background-color: #cfc8c8;
   padding: 5px;
   height: 40px;
+  /* margin-top: -80px; */
 }
 
 .about_me .about_icons i:nth-child(1) {
@@ -554,7 +555,7 @@ h3 {
 
 @media only screen and (max-width: 920px) {
   .about_me .about_content p {
-    font-size: 1.3vw;
+    font-size: 1vw;
   }
 }
 
@@ -575,7 +576,7 @@ h3 {
 
 @media only screen and (max-width: 690px) {
   .about_me .about_content p {
-    font-size: 1.6vw;
+    font-size: 1.2vw;
   }
 
   .about_me .about_content p span {
@@ -911,7 +912,7 @@ i{
 
 
 /************ Shops ************/
-/* #shops {
+#shops {
   width: 100vw;
   height: auto;
   background:rgb(191, 186, 186);
@@ -936,7 +937,4 @@ i{
   -webkit-backdrop-filter: blur( 4px );
   border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
-} */
-
-
-
+} 
