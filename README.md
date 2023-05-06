@@ -1,2 +1,8 @@
 # Coffee-Shop-web
-## working on a full responsive coffee shop website
+## working on a fully responsive coffee shop website
+.... Tools ....
+HTML
+CSS
+JavaScript
+.... Templates ....
+Bootstrap
