@@ -992,7 +992,7 @@ p {
   margin: 50px auto;
   box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
   border-radius: 10px;
-  border: 6px solid #305A72;
+  border: 6px solid #240e0e;
 }
 
 .form-style-9 ul {
@@ -1013,7 +1013,7 @@ p {
   -moz-box-sizing: border-box;
   padding: 8px;
   outline: none;
-  border: 1px solid #B0CFE0;
+  border: 1px solid #ea6f1e;
   -webkit-transition: all 0.30s ease-in-out;
   -moz-transition: all 0.30s ease-in-out;
   -ms-transition: all 0.30s ease-in-out;
@@ -1048,11 +1048,11 @@ p {
 
 .form-style-9 ul li input[type="button"],
 .form-style-9 ul li input[type="submit"] {
-  -moz-box-shadow: inset 0px 1px 0px 0px #3985B1;
-  -webkit-box-shadow: inset 0px 1px 0px 0px #3985B1;
-  box-shadow: inset 0px 1px 0px 0px #3985B1;
-  background-color: #216288;
-  border: 1px solid #17445E;
+  -moz-box-shadow: inset 0px 1px 0px 0px #432424;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #432424;
+  box-shadow: inset 0px 1px 0px 0px #432424;
+  background-color: #432424;
+  border: 1px solid #432424;
   display: inline-block;
   cursor: pointer;
   color: #FFFFFF;
@@ -1063,8 +1063,8 @@ p {
 
 .form-style-9 ul li input[type="button"]:hover,
 .form-style-9 ul li input[type="submit"]:hover {
-  background: linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%);
-  background-color: #28739E;
+  background: linear-gradient(to bottom, #2e1414 5%, #2e1414 100%);
+  background-color: #2e1414;
 }
 
 .form-style-9 ul li input[type="button"],
