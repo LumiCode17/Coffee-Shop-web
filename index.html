@@ -285,6 +285,12 @@
 
   <!---------Shops-------->
   <section id="shops">
+    <!-- <h6 class="shop_header">Enter & Relax</h6> -->
+    <div class="shop_header">
+      <div class="item_1">
+        Enter & Relax 
+      </div>
+    </div>
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -297,8 +303,8 @@
         <div class="carousel-item active">
           <img src="https://images.unsplash.com/photo-1505275350441-83dcda8eeef5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Treasure Coffee Shop</h5>
-            <p>Eastgate 108, Ingwood - Los Angeles  </p>
+            <h5 data-aos="fade-right" data-aos-delay="50" data-aos-duration="1100">Treasure Coffee Shop</h5>
+            <p data-aos="fade-left" data-aos-delay="50" data-aos-duration="1100">Eastgate 108, Ingwood - Los Angeles  </p>
           </div>
         </div>
         <div class="carousel-item">
@@ -339,6 +345,50 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+  </section>
+
+  <!----Reservation ----->
+  <section class="reservation">
+
+    <form class="form-style-9">
+      <ul>
+      <li>
+          <input type="text" name="field1" class="field-style field-split align-left" placeholder="Firstname" required />
+          <input type="text" name="field2" class="field-style field-split align-right" placeholder="Lastname" required />
+      
+      </li>
+      <li>
+          <input type="number" name="field3" class="field-style field-split align-left" placeholder="Phone" required />
+          <input type="url" name="field4" class="field-style field-split align-right" placeholder="Email" required />
+      </li>
+      <li>
+        <input type="date" name="field5" class="field-style field-split align-left" required />
+        <input type="time" name="field6" class="field-style field-split align-right" required />
+      </li>
+      <li>
+        <label>Table Option:</label>
+                 <br>
+                 <input class="field-style" type="radio" name="yes or no" value="Yes"> Regular
+                 <input class="field-style" type="radio" name="yes or no" value="Yes"> VIP
+                 <input class="field-style" type="radio" name="yes or no" value="Yes"> BUSINESS
+      </li>
+      <li>
+      <input type="text" name="field3" class="field-style field-full align-none" placeholder="Subject" required/>
+      </li>
+      <li>
+      <textarea name="field5" class="field-style" placeholder="Message" required></textarea>
+      </li>
+      <li>
+      <input type="submit" value="Send Message" />
+      <input type="reset" value="Reset" />
+      </li>
+      </ul>
+      </form>
+  </section>
+
+  <!------ Footer ------>
+  <section id="contact" class="contact">
+
   </section>
 
 
