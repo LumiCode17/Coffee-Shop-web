@@ -973,10 +973,16 @@ p {
 
 /******Reservations******/
 .reservation {
+  text-align: center;
   background: url(https://images.unsplash.com/photo-1610632380989-680fe40816c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGNvZmZlZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
   background-position: center;
   background-size: contain;
   animation: reserve_stripes 5s infinite alternate;
+}
+.reservation .reservation_header {
+  font-size: 5vw;
+  background: transparent;
+  text-shadow: 3px 3px 1px #aeacac;
 }
 
 @keyframes reserve_stripes {
@@ -1086,4 +1092,53 @@ p {
 .form-style-9 ul li input[type="reset"]:hover {
   background: linear-gradient(to bottom, #a2332d 5%, #ce3030 100%);
   background-color: #b92e2e;
+}
+
+
+/************** Footer ****************/
+.contact {
+  display: flex;
+  align-items: center;
+  background: #2e1414;
+  width: 100vw;
+  height: 30vh;
+  padding: 0 10vw 0 10vw;
+}
+.contact_container {
+  display: grid !important;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  width: 100vw;
+}
+
+.grid_item_1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  border-right: 1px solid #fff;
+  padding: 15px;
+  color: aliceblue;
+  line-break: strict;
+}
+/* .grid_item_1 i {
+  color: #fff;
+} */
+.grid_item_2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  border-right: 1px solid #fff;
+}
+.grid_item_2 a {
+  text-decoration: none;
+}
+.grid_item_3 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  border-right: 1px solid #fff;
+}
+.grid_item_4 {
+  grid-column-start: 5;
+  grid-column-end: 6;
+}
+#contact div {
+  display: block;
 }
