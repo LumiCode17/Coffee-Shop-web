@@ -398,7 +398,7 @@
           <input type="time" name="field6" class="field-style field-split align-right" required />
         </li>
         <li>
-          <label>Table Option:</label>
+          <label style="font-weight: bold;">Table Option:</label>
           <br>
           <input class="field-style" type="radio" name="yes or no" value="Yes"> Regular
           <input class="field-style" type="radio" name="yes or no" value="Yes"> VIP
@@ -438,15 +438,28 @@
       <div class="grid_item_3">
         <span>Events</span>
         <ol>
-          <li>Coffee theme celebrate womens day: 24.05.23</li>
+          <li>Coffee haven celebrate women's day: 24.05.23</li>
           <li>Taste day: 09.09.23</li>
           <li>buy one - get two: 08.03.23</li>
           <li>2 in - pay for 1: 10.11.23</li>
         </ol>
       </div>
       <div class="grid_item_4">
-        <label for="sub">Subscribe</label>
-        <input type="text" name="sub" id="">
+        <span>Subscribe to our Newsletter</span>
+        <form action="/action_page.php">
+        
+          <div class="container" style="background-color:white">
+            <input class="input_1" type="text" placeholder="Name" name="name" required>
+            <input class="input_2" type="text" placeholder="Email address" name="mail" required>
+            <label class="check_label">
+              <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+            </label>
+          </div>
+        
+          <div class="container">
+            <input class="input_3" type="submit" value="Subscribe">
+          </div>
+        </form>
       </div>
     </div>
 
